@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dorothy's Flashcards</title>
+</head>
+<body>
+    <h1>Welcome to My Flashcard App!</h1>
+    <p>Backend status: Connected successfully 🚀</p>
+    {% for card in cards %}
+    <p>{{ card.question }}</p>
+{% endfor %}
+</body>
+</html>
